@@ -1,0 +1,18 @@
+{
+    "name": "maddhatter/gnupg-wrapper",
+    "description": "Wrapper around the GnuPG PECL module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shawn Tunney",
+            "email": "shawn.tunney@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MaddHatter\\GnuPG\\": "src/"
+        }
+    }
+}
